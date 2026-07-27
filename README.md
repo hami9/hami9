@@ -70,7 +70,7 @@
 
 <!-- ANIMATED STREAK STATS -->
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hami294&theme=radical&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hami9&theme=radical&hide_border=true" />
 </div>
 
 ---
@@ -82,4 +82,3 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </div>
-```
