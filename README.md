@@ -1,16 +1,3 @@
-# Profile Assets & Documentation
-
-## 🐦 X (Twitter) Business Bio
-> Full-Stack & AI Engineer ⚡ | Linux & Cloud Systems | Building scalable web apps, smart AI models & custom automation for business growth 🚀
-
----
-
-## 🐙 GitHub Profile README (README.md)
-
-Copy and paste the code below into your GitHub Profile repository (`README.md`):
-
-```markdown
-<!-- HEADER BANNER ANIMATION -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=250&section=header&text=Hami%20Kainy&fontSize=42&fontColor=fff&animation=twinkling" width="100%"/>
 </div>
