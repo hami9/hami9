@@ -52,12 +52,6 @@ GitHub Stats & Activity
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=hami9&theme=react-dark&hide_border=true&area=true" width="100%" />
 </div>
-Connect With Me
-<div align="center">
-<a href="mailto:hami.kainy.9559@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-</div>
 
 <div align="center">
   <picture>
@@ -67,4 +61,14 @@ Connect With Me
   </picture>
 </div>
 
+
+
+
+
+Connect With Me
+<div align="center">
+<a href="mailto:hami.kainy.9559@gmail.com">
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+</div>
 
