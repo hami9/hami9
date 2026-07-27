@@ -13,19 +13,19 @@
 
 ---
 
-### ⚡ About Me
+### About Me
 
 ```bash
-⚡ echo "Hello, World! I'm Hami Kainy"
-📌 Role: Full-Stack & AI Engineer
-🐧 OS: Linux Environments & Server Systems
-💡 Focus: Scalable Web Applications, AI Model Integration, System Automation
-📧 Contact: hami.kainy.9559@gmail.com
+echo "Hello, World! I'm Hami Kainy"
+Role: Full-Stack & AI Engineer
+OS: Linux Environments & Server Systems
+Focus: Scalable Web Applications, AI Model Integration, System Automation
+Contact: hami.kainy.9559@gmail.com
 ```
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### Tech Stack & Skills
 
 <!-- TECH BADGES WITH ICONS -->
 <div align="center">
@@ -54,9 +54,6 @@
 
 </div>
 
----
-
-### 📊 GitHub Stats & Dynamic Cards
 
 <div align="center">
   <!-- STATS CARD -->
@@ -73,7 +70,14 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hami9&theme=radical&hide_border=true" />
 </div>
 
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hami9/hami9/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hami9/hami9/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/hami9/hami9/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
 
 ### 📫 Connect With Me
 
