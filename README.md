@@ -13,13 +13,13 @@
     <img src="https://komarev.com/ghpvc/?username=hami9&label=Profile%20Views&color=38BDF8&style=flat-square" alt="profile views"/>
   </a>
   <a href="https://github.com/hami9?tab=followers">
-    <img src="https://img.shields.io/github/followers/hami9?label=Followers&style=flat-square&color=38BDF8&labelColor=0F172A" alt="followers"/>
+    <img src="https://img.shields.io/github/followers/hami9?label=Followers&style=flat-square&color=38BDF8&labelColor=080D16" alt="followers"/>
   </a>
   <a href="https://github.com/hami9?tab=repositories">
-    <img src="https://img.shields.io/badge/Focus-AI%20%2B%20Automation-38BDF8?style=flat-square&labelColor=0F172A" alt="focus"/>
+    <img src="https://img.shields.io/badge/Focus-AI%20%2B%20Automation-38BDF8?style=flat-square&labelColor=080D16" alt="focus"/>
   </a>
   <a href="mailto:hami.kainy.9559@gmail.com">
-    <img src="https://img.shields.io/badge/Open%20to-Collaboration-22C55E?style=flat-square&labelColor=0F172A" alt="open to collaboration"/>
+    <img src="https://img.shields.io/badge/Open%20to-Collaboration-22C55E?style=flat-square&labelColor=080D16" alt="open to collaboration"/>
   </a>
 </div>
 
@@ -29,6 +29,10 @@
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/visual-map.svg" width="100%" alt="System card: a particle map morphing between the Arm, BlackArch and Linux marks, beside a SYSTEM.INFO panel"/>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/orbs.svg" width="100%" alt="ORB.ARRAY: five animated thinking orbs"/>
 </div>
 
 <br/>
@@ -113,8 +117,8 @@ $ whoami
         <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/>
       </p>
       <p>
-        <img src="https://img.shields.io/github/stars/hami9/telegram-linux-bot?style=flat-square&label=stars&labelColor=0F172A&color=38BDF8" alt="stars"/>
-        <img src="https://img.shields.io/github/last-commit/hami9/telegram-linux-bot?style=flat-square&label=updated&labelColor=0F172A&color=38BDF8" alt="last commit"/>
+        <img src="https://img.shields.io/github/stars/hami9/telegram-linux-bot?style=flat-square&label=stars&labelColor=080D16&color=38BDF8" alt="stars"/>
+        <img src="https://img.shields.io/github/last-commit/hami9/telegram-linux-bot?style=flat-square&label=updated&labelColor=080D16&color=38BDF8" alt="last commit"/>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -126,8 +130,8 @@ $ whoami
         <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress"/>
       </p>
       <p>
-        <img src="https://img.shields.io/github/stars/hami9/mira?style=flat-square&label=stars&labelColor=0F172A&color=38BDF8" alt="stars"/>
-        <img src="https://img.shields.io/github/last-commit/hami9/mira?style=flat-square&label=updated&labelColor=0F172A&color=38BDF8" alt="last commit"/>
+        <img src="https://img.shields.io/github/stars/hami9/mira?style=flat-square&label=stars&labelColor=080D16&color=38BDF8" alt="stars"/>
+        <img src="https://img.shields.io/github/last-commit/hami9/mira?style=flat-square&label=updated&labelColor=080D16&color=38BDF8" alt="last commit"/>
       </p>
     </td>
   </tr>
@@ -143,15 +147,15 @@ $ whoami
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=hami9&hide_border=true&background=00000000&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&currStreakNum=38BDF8&sideLabels=8B949E&sideNums=8B949E&dates=6E7681&stroke=30363D" alt="GitHub streak"/>
+  <img src="https://streak-stats.demolab.com?user=hami9&hide_border=true&background=080D16&border=1E3A5F&stroke=1E3A5F&ring=38BDF8&fire=A78BFA&currStreakLabel=A78BFA&currStreakNum=38BDF8&sideLabels=7C8FA6&sideNums=38BDF8&dates=4A5A6E" alt="GitHub streak"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hami9&hide_border=true&bg_color=00000000&color=38BDF8&line=38BDF8&point=0EA5E9&area=true&area_color=38BDF8" width="100%" alt="Activity graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hami9&bg_color=080D16&color=38BDF8&line=38BDF8&point=A78BFA&area=true&area_color=38BDF8&title_color=A78BFA&custom_title=ACTIVITY.GRAPH&border_color=1E3A5F&radius=12" width="100%" alt="Activity graph"/>
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hami9&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=hami9&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" alt="Trophies"/>
 </div>
 
 <br/>
