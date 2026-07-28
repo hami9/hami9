@@ -14,12 +14,25 @@ export const OUT_DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "..",
 
 const IS_MAIN = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 
+// Palette and panel chrome are shared with generate-chrome.mjs so every card in
+// the README reads as part of the same terminal UI.
 const ACCENT = "#38BDF8";
-const MUTED = "#8B949E";
-const DIM = "#6E7681";
-const BORDER = "#30363D";
-const SANS = "Segoe UI,Ubuntu,Helvetica,Arial,sans-serif";
+const PURPLE = "#A78BFA";
+const MUTED = "#7C8FA6";
+const DIM = "#4A5A6E";
+const PANEL = "#080D16";
 const MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace";
+
+const panel = (w, h) => `<defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="${ACCENT}"/><stop offset="100%" stop-color="${PURPLE}"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="${ACCENT}" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="${w - 2}" height="${h - 2}" rx="12" fill="${PANEL}" stroke="url(#edge)" stroke-opacity="0.55"/>
+  <rect x="1" y="1" width="${w - 2}" height="${h - 2}" rx="12" fill="url(#grid)"/>`;
 
 if (IS_MAIN && !TOKEN) {
   console.error("GITHUB_TOKEN is required");
@@ -139,10 +152,10 @@ export function statsCard({ title, stats }) {
   const cells = stats
     .map((stat, i) => {
       const x = 25 + (i % cols) * colGap;
-      const labelY = i < cols ? 82 : 142;
+      const labelY = i < cols ? 86 : 144;
       const valueY = labelY + 26;
       return `
-    <text x="${x}" y="${labelY}" fill="${MUTED}" font-size="11" letter-spacing="1.4" font-family="${SANS}">${escapeXml(
+    <text x="${x}" y="${labelY}" fill="${MUTED}" font-size="9.5" letter-spacing="1.8" font-family="${MONO}">${escapeXml(
         stat.label.toUpperCase()
       )}</text>
     <text x="${x}" y="${valueY}" fill="${ACCENT}" font-size="23" font-weight="700" font-family="${MONO}">${escapeXml(
@@ -154,9 +167,10 @@ export function statsCard({ title, stats }) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="${escapeXml(
     title
   )}">
-  <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="8" fill="none" stroke="${BORDER}"/>
-  <text x="25" y="38" fill="${ACCENT}" font-size="17" font-weight="700" font-family="${SANS}">${escapeXml(title)}</text>
-  <rect x="25" y="50" width="46" height="2" rx="1" fill="${ACCENT}"/>${cells}
+  ${panel(width, height)}
+  <text x="25" y="34" font-size="9.5" letter-spacing="2.6" font-family="${MONO}" fill="${PURPLE}">SYSTEM.STATS</text>
+  <text x="${width - 25}" y="34" text-anchor="end" font-size="9.5" font-family="${MONO}" fill="${DIM}">${escapeXml(title)}</text>
+  <line x1="14" y1="48" x2="${width - 14}" y2="48" stroke="${ACCENT}" stroke-opacity="0.16"/>${cells}
 </svg>
 `;
 }
@@ -189,19 +203,20 @@ export function languagesCard(languages) {
       const y = 108 + Math.floor(i / 2) * 25;
       return `
   <circle cx="${x + 5}" cy="${y - 4}" r="5" fill="${lang.color}"/>
-  <text x="${x + 17}" y="${y}" fill="${MUTED}" font-size="12" font-family="${SANS}">${escapeXml(
+  <text x="${x + 17}" y="${y}" fill="${MUTED}" font-size="11" font-family="${MONO}">${escapeXml(
         lang.name
       )} <tspan fill="${DIM}">${lang.percent.toFixed(1)}%</tspan></text>`;
     })
     .join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" role="img" aria-label="Most used languages">
-  <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="8" fill="none" stroke="${BORDER}"/>
-  <text x="25" y="38" fill="${ACCENT}" font-size="17" font-weight="700" font-family="${SANS}">Most Used Languages</text>
-  <rect x="25" y="50" width="46" height="2" rx="1" fill="${ACCENT}"/>
+  ${panel(width, height)}
+  <text x="25" y="34" font-size="9.5" letter-spacing="2.6" font-family="${MONO}" fill="${PURPLE}">LANG.DIST</text>
+  <text x="${width - 25}" y="34" text-anchor="end" font-size="9.5" font-family="${MONO}" fill="${DIM}">by bytes</text>
+  <line x1="14" y1="48" x2="${width - 14}" y2="48" stroke="${ACCENT}" stroke-opacity="0.16"/>
   <clipPath id="bar"><rect x="${barX}" y="${barY}" width="${barW}" height="${barH}" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="${barX}" y="${barY}" width="${barW}" height="${barH}" fill="${BORDER}"/>
+    <rect x="${barX}" y="${barY}" width="${barW}" height="${barH}" fill="#16202E"/>
     ${segments}
   </g>${legend}
 </svg>

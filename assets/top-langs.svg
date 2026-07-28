@@ -1,27 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 185" width="400" height="185" role="img" aria-label="Most used languages">
-  <rect x="0.5" y="0.5" width="399" height="184" rx="8" fill="none" stroke="#30363D"/>
-  <text x="25" y="38" fill="#38BDF8" font-size="17" font-weight="700" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">Most Used Languages</text>
-  <rect x="25" y="50" width="46" height="2" rx="1" fill="#38BDF8"/>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#38BDF8" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="398" height="183" rx="12" fill="#080D16" stroke="url(#edge)" stroke-opacity="0.55"/>
+  <rect x="1" y="1" width="398" height="183" rx="12" fill="url(#grid)"/>
+  <text x="25" y="34" font-size="9.5" letter-spacing="2.6" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#A78BFA">LANG.DIST</text>
+  <text x="375" y="34" text-anchor="end" font-size="9.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" fill="#4A5A6E">by bytes</text>
+  <line x1="14" y1="48" x2="386" y2="48" stroke="#38BDF8" stroke-opacity="0.16"/>
   <clipPath id="bar"><rect x="25" y="66" width="350" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="25" y="66" width="350" height="10" fill="#30363D"/>
-    <rect x="25.00" y="66" width="310.46" height="10" fill="#3178c6"/>
-    <rect x="335.46" y="66" width="15.67" height="10" fill="#89e051"/>
-    <rect x="351.14" y="66" width="13.90" height="10" fill="#4F5D95"/>
-    <rect x="365.04" y="66" width="3.25" height="10" fill="#e34c26"/>
-    <rect x="368.28" y="66" width="3.16" height="10" fill="#f1e05a"/>
-    <rect x="371.44" y="66" width="3.56" height="10" fill="#6E7681"/>
+    <rect x="25" y="66" width="350" height="10" fill="#16202E"/>
+    <rect x="25.00" y="66" width="310.45" height="10" fill="#3178c6"/>
+    <rect x="335.45" y="66" width="15.75" height="10" fill="#89e051"/>
+    <rect x="351.20" y="66" width="14.00" height="10" fill="#4F5D95"/>
+    <rect x="365.20" y="66" width="3.15" height="10" fill="#e34c26"/>
+    <rect x="368.35" y="66" width="3.15" height="10" fill="#f1e05a"/>
+    <rect x="371.50" y="66" width="3.50" height="10" fill="#4A5A6E"/>
   </g>
   <circle cx="30" cy="104" r="5" fill="#3178c6"/>
-  <text x="42" y="108" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">TypeScript <tspan fill="#6E7681">88.7%</tspan></text>
+  <text x="42" y="108" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">TypeScript <tspan fill="#4A5A6E">88.7%</tspan></text>
   <circle cx="215" cy="104" r="5" fill="#89e051"/>
-  <text x="227" y="108" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">Shell <tspan fill="#6E7681">4.5%</tspan></text>
+  <text x="227" y="108" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Shell <tspan fill="#4A5A6E">4.5%</tspan></text>
   <circle cx="30" cy="129" r="5" fill="#4F5D95"/>
-  <text x="42" y="133" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">PHP <tspan fill="#6E7681">4.0%</tspan></text>
+  <text x="42" y="133" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">PHP <tspan fill="#4A5A6E">4.0%</tspan></text>
   <circle cx="215" cy="129" r="5" fill="#e34c26"/>
-  <text x="227" y="133" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">HTML <tspan fill="#6E7681">0.9%</tspan></text>
+  <text x="227" y="133" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">HTML <tspan fill="#4A5A6E">0.9%</tspan></text>
   <circle cx="30" cy="154" r="5" fill="#f1e05a"/>
-  <text x="42" y="158" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">JavaScript <tspan fill="#6E7681">0.9%</tspan></text>
-  <circle cx="215" cy="154" r="5" fill="#6E7681"/>
-  <text x="227" y="158" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">Other <tspan fill="#6E7681">1.0%</tspan></text>
+  <text x="42" y="158" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">JavaScript <tspan fill="#4A5A6E">0.9%</tspan></text>
+  <circle cx="215" cy="154" r="5" fill="#4A5A6E"/>
+  <text x="227" y="158" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Other <tspan fill="#4A5A6E">1.0%</tspan></text>
 </svg>

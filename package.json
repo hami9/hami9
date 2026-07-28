@@ -5,7 +5,8 @@
   "description": "Generators for the README assets in this profile repository.",
   "scripts": {
     "stats": "node .github/scripts/generate-stats.mjs",
-    "visual-map": "node .github/scripts/generate-visual-map.mjs"
+    "visual-map": "node .github/scripts/generate-visual-map.mjs",
+    "chrome": "node .github/scripts/generate-chrome.mjs"
   },
   "devDependencies": {
     "playwright": "^1.49.0",
