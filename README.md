@@ -84,37 +84,6 @@
 
 <br/>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/hami9/telegram-linux-bot">🤖 telegram-linux-bot</a></h3>
-      <p>A Linux terminal AI assistant embedded in a Telegram management bot. Simulates a native CLI experience with automated user privileges and technical answers powered by Gemini.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/>
-        <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/>
-      </p>
-      <p>
-        <img src="https://img.shields.io/github/stars/hami9/telegram-linux-bot?style=flat-square&label=stars&labelColor=080D16&color=38BDF8" alt="stars"/>
-        <img src="https://img.shields.io/github/last-commit/hami9/telegram-linux-bot?style=flat-square&label=updated&labelColor=080D16&color=38BDF8" alt="last commit"/>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/hami9/mira">💬 mira</a></h3>
-      <p>A live-chat platform delivered as a WordPress plugin. TypeScript front end over a PHP backend, with a focus on clean UI and a drop-in install for existing sites.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
-        <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress"/>
-      </p>
-      <p>
-        <img src="https://img.shields.io/github/stars/hami9/mira?style=flat-square&label=stars&labelColor=080D16&color=38BDF8" alt="stars"/>
-        <img src="https://img.shields.io/github/last-commit/hami9/mira?style=flat-square&label=updated&labelColor=080D16&color=38BDF8" alt="last commit"/>
-      </p>
-    </td>
-  </tr>
-</table>
-
 <br/>
 
 <div align="center">
