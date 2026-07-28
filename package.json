@@ -1,0 +1,14 @@
+{
+  "name": "hami9-profile",
+  "private": true,
+  "type": "module",
+  "description": "Generators for the README assets in this profile repository.",
+  "scripts": {
+    "stats": "node .github/scripts/generate-stats.mjs",
+    "visual-map": "node .github/scripts/generate-visual-map.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0",
+    "simple-icons": "^13.0.0"
+  }
+}

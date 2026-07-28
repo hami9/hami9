@@ -25,18 +25,19 @@
 
 <br/>
 
+## 🧬 System Map
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/visual-map.svg" width="100%" alt="System card: a particle map morphing between the Arm, BlackArch and Linux marks, beside a SYSTEM.INFO panel"/>
+</div>
+
+<br/>
+
 ## 🧑‍💻 About Me
 
 ```bash
 $ whoami
 > Hami Kainy — Full-Stack & AI Engineer
-
-$ cat ~/.profile
-ROLE="Full-Stack & AI Engineer"
-STACK="Python · TypeScript · React · FastAPI · Node.js"
-FOCUS="Scalable web apps · AI model integration · System automation"
-ENVIRONMENT="Linux servers · Docker · Nginx"
-CONTACT="hami.kainy.9559@gmail.com"
 ```
 
 - 🔭 &nbsp;Currently building **[telegram-linux-bot](https://github.com/hami9/telegram-linux-bot)** — an AI Linux terminal assistant embedded in a Telegram management bot.
