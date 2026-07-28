@@ -97,7 +97,9 @@ function escapeXml(value) {
   });
 }
 
-export function collectLanguages(repos, limit = 6) {
+// The legend lays out two entries per row, and the card is sized to sit beside
+// the stats card, so the default keeps the total (top N plus "Other") at six.
+export function collectLanguages(repos, limit = 5) {
   const totals = new Map();
 
   for (const repo of repos) {
@@ -161,7 +163,9 @@ export function statsCard({ title, stats }) {
 
 export function languagesCard(languages) {
   const width = 400;
-  const height = 185;
+  // Grow with the legend so a longer list can never spill past the border.
+  const legendRows = Math.ceil(languages.length / 2);
+  const height = Math.max(185, 110 + legendRows * 25);
   const barX = 25;
   const barY = 66;
   const barW = width - 50;
