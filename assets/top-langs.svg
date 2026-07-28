@@ -5,20 +5,26 @@
   <clipPath id="bar"><rect x="25" y="66" width="350" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
     <rect x="25" y="66" width="350" height="10" fill="#30363D"/>
-    <rect x="25.00" y="66" width="132.87" height="10" fill="#3178c6"/>
-    <rect x="157.87" y="66" width="106.94" height="10" fill="#3572A5"/>
-    <rect x="264.81" y="66" width="84.26" height="10" fill="#4F5D95"/>
-    <rect x="349.07" y="66" width="19.44" height="10" fill="#f1e05a"/>
-    <rect x="368.52" y="66" width="6.48" height="10" fill="#89e051"/>
+    <rect x="25.00" y="66" width="310.46" height="10" fill="#3178c6"/>
+    <rect x="335.46" y="66" width="15.67" height="10" fill="#89e051"/>
+    <rect x="351.14" y="66" width="13.90" height="10" fill="#4F5D95"/>
+    <rect x="365.04" y="66" width="3.25" height="10" fill="#e34c26"/>
+    <rect x="368.28" y="66" width="3.16" height="10" fill="#f1e05a"/>
+    <rect x="371.44" y="66" width="2.49" height="10" fill="#384d54"/>
+    <rect x="373.94" y="66" width="1.06" height="10" fill="#6E7681"/>
   </g>
   <circle cx="30" cy="104" r="5" fill="#3178c6"/>
-  <text x="42" y="108" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">TypeScript <tspan fill="#6E7681">38.0%</tspan></text>
-  <circle cx="215" cy="104" r="5" fill="#3572A5"/>
-  <text x="227" y="108" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">Python <tspan fill="#6E7681">30.6%</tspan></text>
+  <text x="42" y="108" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">TypeScript <tspan fill="#6E7681">88.7%</tspan></text>
+  <circle cx="215" cy="104" r="5" fill="#89e051"/>
+  <text x="227" y="108" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">Shell <tspan fill="#6E7681">4.5%</tspan></text>
   <circle cx="30" cy="129" r="5" fill="#4F5D95"/>
-  <text x="42" y="133" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">PHP <tspan fill="#6E7681">24.1%</tspan></text>
-  <circle cx="215" cy="129" r="5" fill="#f1e05a"/>
-  <text x="227" y="133" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">JavaScript <tspan fill="#6E7681">5.6%</tspan></text>
-  <circle cx="30" cy="154" r="5" fill="#89e051"/>
-  <text x="42" y="158" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">Shell <tspan fill="#6E7681">1.9%</tspan></text>
+  <text x="42" y="133" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">PHP <tspan fill="#6E7681">4.0%</tspan></text>
+  <circle cx="215" cy="129" r="5" fill="#e34c26"/>
+  <text x="227" y="133" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">HTML <tspan fill="#6E7681">0.9%</tspan></text>
+  <circle cx="30" cy="154" r="5" fill="#f1e05a"/>
+  <text x="42" y="158" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">JavaScript <tspan fill="#6E7681">0.9%</tspan></text>
+  <circle cx="215" cy="154" r="5" fill="#384d54"/>
+  <text x="227" y="158" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">Dockerfile <tspan fill="#6E7681">0.7%</tspan></text>
+  <circle cx="30" cy="179" r="5" fill="#6E7681"/>
+  <text x="42" y="183" fill="#8B949E" font-size="12" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">Other <tspan fill="#6E7681">0.3%</tspan></text>
 </svg>
