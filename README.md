@@ -25,7 +25,6 @@
 
 <br/>
 
-## 🧬 System Map
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/visual-map.svg" width="100%" alt="System card: a particle map morphing between the Arm, BlackArch and Linux marks, beside a SYSTEM.INFO panel"/>
@@ -34,25 +33,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/orbs.svg" width="100%" alt="ORB.ARRAY: five animated thinking orbs"/>
 </div>
-
-<br/>
-
-## 🧑‍💻 About Me
-
-```bash
-$ whoami
-> Hami Kainy — Full-Stack & AI Engineer
-```
-
-- 🔭 &nbsp;Currently building **[telegram-linux-bot](https://github.com/hami9/telegram-linux-bot)** — an AI Linux terminal assistant embedded in a Telegram management bot.
-- 💬 &nbsp;Working on **[mira](https://github.com/hami9/mira)** — a live-chat platform shipped as a WordPress plugin (TypeScript + PHP).
-- ⚙️ &nbsp;I like turning repetitive work into scripts, services and bots that run themselves.
-- 🐧 &nbsp;Most at home in a terminal — Linux, Docker, Nginx and a lot of Bash.
-- 📫 &nbsp;Reach me at **hami.kainy.9559@gmail.com** — always open to interesting projects.
-
-<br/>
-
-## 🛠️ Tech Stack
 
 <table>
   <tr>
@@ -104,8 +84,6 @@ $ whoami
 
 <br/>
 
-## 🚀 Featured Projects
-
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -139,8 +117,6 @@ $ whoami
 
 <br/>
 
-## 📊 GitHub Analytics
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/stats.svg" height="185" alt="GitHub stats"/>
   <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/top-langs.svg" height="185" alt="Most used languages"/>
@@ -160,8 +136,6 @@ $ whoami
 
 <br/>
 
-## 🐍 Contribution Graph
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hami9/hami9/output/github-contribution-grid-snake-dark.svg">
@@ -171,8 +145,6 @@ $ whoami
 </div>
 
 <br/>
-
-## 🤝 Connect With Me
 
 <div align="center">
   <a href="mailto:hami.kainy.9559@gmail.com">
