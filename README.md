@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0369A1,100:38BDF8&height=200&section=header&text=Hami%20Kainy&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Full-Stack%20%26%20AI%20Engineer&descAlignY=54&descSize=18&animation=fadeIn" width="100%" alt="header"/>
+  <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/header.svg" width="100%" alt="Hami Kainy — Full-Stack & AI Engineer"/>
 </div>
 
 <div align="center">
@@ -101,22 +101,44 @@ CONTACT="hami.kainy.9559@gmail.com"
 
 ## 🚀 Featured Projects
 
-<div align="center">
-  <a href="https://github.com/hami9/telegram-linux-bot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hami9&repo=telegram-linux-bot&bg_color=00000000&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8&border_color=30363D&show_owner=false" alt="telegram-linux-bot"/>
-  </a>
-  <a href="https://github.com/hami9/mira">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=hami9&repo=mira&bg_color=00000000&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8&border_color=30363D&show_owner=false" alt="mira"/>
-  </a>
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/hami9/telegram-linux-bot">🤖 telegram-linux-bot</a></h3>
+      <p>A Linux terminal AI assistant embedded in a Telegram management bot. Simulates a native CLI experience with automated user privileges and technical answers powered by Gemini.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"/>
+        <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/stars/hami9/telegram-linux-bot?style=flat-square&label=stars&labelColor=0F172A&color=38BDF8" alt="stars"/>
+        <img src="https://img.shields.io/github/last-commit/hami9/telegram-linux-bot?style=flat-square&label=updated&labelColor=0F172A&color=38BDF8" alt="last commit"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/hami9/mira">💬 mira</a></h3>
+      <p>A live-chat platform delivered as a WordPress plugin. TypeScript front end over a PHP backend, with a focus on clean UI and a drop-in install for existing sites.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
+        <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" alt="WordPress"/>
+      </p>
+      <p>
+        <img src="https://img.shields.io/github/stars/hami9/mira?style=flat-square&label=stars&labelColor=0F172A&color=38BDF8" alt="stars"/>
+        <img src="https://img.shields.io/github/last-commit/hami9/mira?style=flat-square&label=updated&labelColor=0F172A&color=38BDF8" alt="last commit"/>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <br/>
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hami9&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=8B949E&icon_color=38BDF8" height="170" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hami9&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=8B949E" height="170" alt="Top languages"/>
+  <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/stats.svg" height="185" alt="GitHub stats"/>
+  <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/top-langs.svg" height="185" alt="Most used languages"/>
 </div>
 
 <div align="center">
@@ -162,5 +184,5 @@ CONTACT="hami.kainy.9559@gmail.com"
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,50:0369A1,100:0F172A&height=120&section=footer" width="100%" alt="footer"/>
+  <img src="https://raw.githubusercontent.com/hami9/hami9/main/assets/footer.svg" width="100%" alt="footer"/>
 </div>

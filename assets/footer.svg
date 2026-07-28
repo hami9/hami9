@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" role="img" aria-label="Footer">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#0C4A6E"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <clipPath id="frame2">
+      <rect width="1000" height="120" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame2)">
+    <rect width="1000" height="120" fill="url(#sky2)"/>
+
+    <!-- Each wave path spans 2000px (8 segments of 250) so it still covers the
+         full 1000px viewport at either end of its 500px translate cycle. -->
+    <g opacity="0.30">
+      <path d="M0 46 q125 24 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V0 H0 Z" fill="#7DD3FC">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -500 0" dur="15s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity="0.45">
+      <path d="M-250 34 q125 20 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V0 H-250 Z" fill="#38BDF8">
+        <animateTransform attributeName="transform" type="translate" values="-500 0; 0 0" dur="10s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity="0.9">
+      <path d="M0 22 q125 16 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V0 H0 Z" fill="#0B1220">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -500 0" dur="21s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <text x="500" y="95" text-anchor="middle" fill="#BAE6FD" font-size="13" letter-spacing="3"
+          font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+      THANKS FOR SCROLLING
+    </text>
+  </g>
+</svg>

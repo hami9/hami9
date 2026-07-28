@@ -7,6 +7,10 @@ on:
   push:
     branches:
       - main
+    # The stats workflow commits to assets/ on a schedule; no need to
+    # regenerate the snake for those pushes.
+    paths-ignore:
+      - "assets/**"
 
 jobs:
   generate:
