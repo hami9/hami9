@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="Hami Kainy - Full-Stack and AI Engineer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="45%" stop-color="#0C4A6E"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#38BDF8" fill-opacity="0.16"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1000" height="200" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="200" fill="url(#sky)"/>
+    <rect width="1000" height="200" fill="url(#dots)"/>
+
+    <g opacity="0.30">
+      <path d="M0 152 q125 -26 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V200 H0 Z" fill="#7DD3FC">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -500 0" dur="14s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity="0.45">
+      <path d="M-250 163 q125 -22 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V200 H-250 Z" fill="#38BDF8">
+        <animateTransform attributeName="transform" type="translate" values="-500 0; 0 0" dur="9s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity="0.85">
+      <path d="M0 176 q125 -16 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 V200 H0 Z" fill="#0B1220">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -500 0" dur="20s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g text-anchor="middle" font-family="Segoe UI,Ubuntu,Helvetica,Arial,sans-serif">
+      <text x="500" y="86" fill="#FFFFFF" font-size="48" font-weight="700" letter-spacing="1.5">
+        Hami Kainy
+        <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+      </text>
+      <rect x="440" y="102" width="120" height="2" fill="url(#glow)">
+        <animate attributeName="opacity" values="0;1" dur="1.6s" fill="freeze"/>
+      </rect>
+      <text x="500" y="130" fill="#BAE6FD" font-size="16" font-weight="500" letter-spacing="4.5"
+            font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+        FULL-STACK &amp; AI ENGINEER
+        <animate attributeName="opacity" values="0;1" dur="2s" fill="freeze"/>
+      </text>
+    </g>
+  </g>
+</svg>
