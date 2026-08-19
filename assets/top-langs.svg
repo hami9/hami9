@@ -15,19 +15,19 @@
   <clipPath id="bar"><rect x="25" y="66" width="350" height="10" rx="5"/></clipPath>
   <g clip-path="url(#bar)">
     <rect x="25" y="66" width="350" height="10" fill="#16202E"/>
-    <rect x="25.00" y="66" width="225.89" height="10" fill="#3178c6"/>
-    <rect x="250.89" y="66" width="105.91" height="10" fill="#3572A5"/>
-    <rect x="356.80" y="66" width="5.75" height="10" fill="#f1e05a"/>
-    <rect x="362.55" y="66" width="5.67" height="10" fill="#89e051"/>
-    <rect x="368.22" y="66" width="3.48" height="10" fill="#4F5D95"/>
-    <rect x="371.70" y="66" width="3.30" height="10" fill="#4A5A6E"/>
+    <rect x="25.00" y="66" width="226.27" height="10" fill="#3178c6"/>
+    <rect x="251.27" y="66" width="105.47" height="10" fill="#3572A5"/>
+    <rect x="356.73" y="66" width="5.87" height="10" fill="#f1e05a"/>
+    <rect x="362.60" y="66" width="5.65" height="10" fill="#89e051"/>
+    <rect x="368.25" y="66" width="3.46" height="10" fill="#4F5D95"/>
+    <rect x="371.71" y="66" width="3.29" height="10" fill="#4A5A6E"/>
   </g>
   <circle cx="30" cy="104" r="5" fill="#3178c6"/>
-  <text x="42" y="108" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">TypeScript <tspan fill="#4A5A6E">64.5%</tspan></text>
+  <text x="42" y="108" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">TypeScript <tspan fill="#4A5A6E">64.6%</tspan></text>
   <circle cx="215" cy="104" r="5" fill="#3572A5"/>
-  <text x="227" y="108" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Python <tspan fill="#4A5A6E">30.3%</tspan></text>
+  <text x="227" y="108" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Python <tspan fill="#4A5A6E">30.1%</tspan></text>
   <circle cx="30" cy="129" r="5" fill="#f1e05a"/>
-  <text x="42" y="133" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">JavaScript <tspan fill="#4A5A6E">1.6%</tspan></text>
+  <text x="42" y="133" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">JavaScript <tspan fill="#4A5A6E">1.7%</tspan></text>
   <circle cx="215" cy="129" r="5" fill="#89e051"/>
   <text x="227" y="133" fill="#7C8FA6" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Shell <tspan fill="#4A5A6E">1.6%</tspan></text>
   <circle cx="30" cy="154" r="5" fill="#4F5D95"/>
