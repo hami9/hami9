@@ -1,7 +1,3 @@
-I build and run self-hosted systems for online stores: Linux servers, Docker
-deployments, WooCommerce, and Telegram automation. Infrastructure the owner
-actually owns, not rents.
-
 ## What I work with
 
 **Infrastructure** — Linux, Docker and Compose, nginx, Bash, networking, server hardening
