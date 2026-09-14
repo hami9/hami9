@@ -9,4 +9,4 @@ I also work with AI integrations and agentic workflows, technical SEO and GEO/AE
 Currently expanding into distributed systems, Kubernetes, and Go.
 
 Open to project work.
-Currently work on kgkala.ir & hamihamrahmandegar.ir
+Currently working on and maintaining live production systems, including kgkala.ir and hamihamrahmandegar.ir.
