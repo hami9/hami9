@@ -7,6 +7,7 @@ My stack includes Python, FastAPI, Django, Node.js, TypeScript, PostgreSQL, Redi
 I also work with AI integrations and agentic workflows, technical SEO and GEO/AEO, infrastructure hardening, and application security auditing.
 
 Currently expanding into distributed systems, Kubernetes, and Go.
-
+-----------------
 Open to project work.
+
 Currently working on and maintaining live production systems, including kgkala.ir and hamihamrahmandegar.ir.
